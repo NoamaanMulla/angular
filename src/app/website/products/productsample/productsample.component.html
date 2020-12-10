@@ -1,0 +1,15 @@
+<div class="container">
+    <img [src]=pimg [alt]=pname>
+    <div class="info-container">
+        <div class="info">
+            <h1>{{ pname }}</h1>
+            <p>Buy a {{ pname }} they said, it'll be fun they said</p>
+            <p>Price: 399$</p>
+            <button class="btn">BUY NOW</button>
+        </div>
+    </div>
+</div>
+<button value="Laptop" (click)="change_info($event)">Laptop</button>
+<button value="TV" (click)="change_info($event)">TV</button>
+<button value="Mobile" (click)="change_info($event)">Mobile</button>
+<button value="Printer" (click)="change_info($event)">Printer</button>

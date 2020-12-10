@@ -1,0 +1,44 @@
+.container {
+    background-color: rgb(117, 255, 138);
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 90vw;
+    margin: 0px auto;
+
+}
+.container h1 {
+    padding: 20px;
+}
+.login {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    padding: 30px 20px;
+    margin: 30px;
+    margin-bottom: 100px;
+}
+.login p {
+    font-weight: 700;
+    border-top: 1px solid rgb(200, 200, 200);
+    border-bottom: 1px solid rgb(200, 200, 200);
+    padding: 10px;
+    margin: 30px;
+}
+input[type="text"], input[type="password"] {
+    margin: 0px auto;
+    padding: 10px 40px;
+    margin: 10px;
+    border-radius: 3px;
+    display: block;
+    border: 1px solid rgb(200, 200, 200);
+}
+button[type="submit"] {
+    background-color: rgb(117, 255, 138);
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 3px;
+    padding: 10px 40px;
+    font-weight: 700;
+    margin: 20px;
+}
+button[type="submit"]:hover {
+    cursor: pointer;
+}
